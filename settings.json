@@ -1,0 +1,33 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.rulers": [120],
+  "editor.fontFamily": "Hasklig, 'Source Code Pro'",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "html.format.wrapAttributes": "force-expand-multiline",
+
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.snippetSuggestions": "top"
+  },
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.sideBar.location": "left",
+  "terminal.integrated.rendererType": "dom"
+}
