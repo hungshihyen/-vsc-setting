@@ -1,0 +1,30 @@
+{
+  "iife": {
+    "prefix": "iife",
+    "body": ["(async ()=>{", "  $1", "})();"]
+  },
+  "Use Promise obj": {
+    "prefix": "pro",
+    "body": ["return new Promise((resolve, reject) => {", "  $1", "})"],
+    "description": "Promise Obj"
+  },
+  "Use log": {
+    "prefix": "clog",
+    "body": ["console.log($1)"],
+    "description": "console.log()"
+  },
+  "Use jquery ajax": {
+    "prefix": "ajax",
+    "body": [
+      "$.ajax({",
+      "  url: url,",
+      "  type: \"post\",",
+      "  data: { function: \"\" },",
+      "  complete(res) {",
+      "    console.log(res.responseText);",
+      "  },",
+      "});"
+    ],
+    "description": "jquery ajax"
+  }
+}
